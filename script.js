@@ -1,6 +1,8 @@
-const gitLogo = document.getElementsByClassName("logo");
+const gitLogo = document.getElementById("logo");
 
-gitLogo.addEventListener('click', function(){
+function logoClick(){
+    alert("I was clicked"); 
     window.location.replace("https://github.com/apoorvaramak");
-});
+}
+gitLogo.addEventListener('click', logoClick); 
 
