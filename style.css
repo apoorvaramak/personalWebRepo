@@ -3,6 +3,11 @@ body
   background-color: #1D1362;
 }
 
+#logo {
+  margin-left: 150px;
+  margin-top: 50px; 
+}
+
 .column
 {
   position: relative;
